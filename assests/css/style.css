@@ -1,155 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:wght@500&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:wght@500&display=swap');
-  
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap");
 
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-   --primary-color:#3a7474;
-   --secondary-color:#9dbcbc;
-   --content-color:#123c69;
-   
-   
-   
+:root {
+  --primary-color: #3a7474;
+  --secondary-color: #9dbcbc;
+  --content-color: #123c69;
 }
-header{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;;
-    background-color:var(--secondary-color);
-    font-family:  'Poppins', sans-serif;
-    font-size: bold;
-
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+  font-size: bold;
 }
 header .top-title {
-    font-size:15px;
-    font-weight:bold;
-    color:#fff5bb;
-    letter-spacing: 2px;
-
+  font-size: 20px;
+  font-weight: bold;
+  color: #720322;
+  letter-spacing: 2px;
 }
 header ul {
-    list-style-type: none;
-    display:flex;
-    padding:5px;
-    
-   
+  list-style-type: none;
+  display: flex;
+  padding: 5px;
+  font-size: 20px;
 }
-header ul li{
-    margin-right: 15px;
-    
-     
+header ul li {
+  margin-right: 15px;
+  font-weight: 100;
 }
-header ul li a{
-    text-decoration: none;
-    color:var(--content-color);
+header ul li a {
+  text-decoration: none;
+  color: var(--content-color);
 }
-header ul li a:hover{
-    color:#2875c8;
+header ul li a:hover {
+  color: #2875c8;
 }
-header .top-button{
-   padding:10px;
+header .top-button {
+  padding: 10px;
+  font-size: 15px;
 
-   font-weight: bold;
-   background-color:var(--primary-color) ;
-   border-radius: 5px;
-   border: none;
-
-
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
 }
-header .top-button a{
-    text-decoration: none;
-    color:#fbfbfb;
-
+header .top-button a {
+  text-decoration: none;
+  color: #fbfbfb;
 }
-header .top-button:hover{
-    background-color: black;
+header .top-button:hover {
+  background-color: black;
 }
 
-section{
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    padding: 30px 120px 30px 240px ;
-    background-color: var(--primary-color);
-    font-family:'Poppins', sans-serif ;
-   
-
+.hero_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 120px 30px 240px;
+  background-color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
 }
 
-
-section .hero_title h2{
-   font-size: 48px;
-
+.hero_section .hero_title h2 {
+  font-size: 48px;
 }
-section .hero_icons{
-    margin-top: 10px;
-    padding:5px;
-   
-
+.hero_section .hero_icons {
+  margin-top: 10px;
+  padding: 5px;
 }
-section .hero_icons ul{
-    list-style-type: none;
-    display:flex
+.hero_section .hero_icons ul {
+  list-style-type: none;
+  display: flex;
 }
-section .hero_icons ul li{
-    margin-right:20px;
-    font-size: large;
-   
-    
+.hero_section .hero_icons ul li {
+  margin-right: 20px;
+  font-size: large;
 }
-section .hero_icons ul li a{
-    color:#9ceb14;
+.hero_section .hero_icons ul li a {
+  color: #9ceb14;
 }
 /*section .hero_icons ul li a:hover{
     color:darkblue;
 }*/
-  section .hero_icons ul li a.meta :hover{
-    color:darkblue;}
-    section .hero_icons ul li a.insta:hover{
-        color:   #fa7e1e;
-    }
-section .hero_btn{
-    padding:3px;
-    margin-top: 10px;
+.hero_section .hero_icons ul li a.meta :hover {
+  color: darkblue;
 }
-section .hero_btn .hireme{
-    margin-right:5px;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #010102;
-    color: rgb(162 200 241);;
-    font-weight:bold;
-     
-}section .hero_btn .download{
-    border-radius: 5px;
-    padding: 5px;
-    background-color:#1b3b4a;
-    color:#60f4f1;
+.hero_section .hero_icons ul li a.insta:hover {
+  color: #fa7e1e;
+}
+.hero_section .hero_btn {
+  padding: 3px;
+  margin-top: 10px;
+}
+.hero_section .hero_btn .hireme {
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #010102;
+  color: rgb(162 200 241);
+  font-weight: bold;
+}
+.hero_section .hero_btn .download {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #1b3b4a;
+  color: #1881fb;
 
-    font-weight:bold;
-
-
+  font-weight: bold;
 }
-section .hero_btn .hireme:hover{
-    color: #1881fb;
-    font-weight: 600;
+.hero_section .hero_btn .hireme:hover {
+  color: #1881fb;
+  font-weight: 600;
 }
-section .hero_btn .download:hover{
-    background-color:black;
-    font-weight: 600;
+.hero_section .hero_btn .download:hover {
+  background-color: black;
+  font-weight: 600;
 }
-section .hero_img img{
-    /*padding: 30px;*/
-    border-radius: 10px;
+.hero_section .hero_img img {
+  /*padding: 30px;*/
+  border-radius: 10px;
   /*  height: 200px;*/
-     
-     
-   
 }
