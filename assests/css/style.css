@@ -215,10 +215,9 @@ header .top-button:hover {
   background-color: var(--secondary-color);
 }
 .box_division i {
-  border-radius:50%;
+  border-radius: 50%;
   color: #720322;
-  border:10px;
-
+  border: 10px;
 }
 .box_division h4 {
   color: #123c69;
@@ -227,16 +226,65 @@ header .top-button:hover {
 }
 .box_division p {
   margin-top: 20px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .box_division a {
-
   text-decoration: none;
-  color:white;
+  color: white;
   font-weight: 600;
   background-color: #07706e;
-  padding:5px;
+  padding: 5px;
   border-radius: 5px;
+}
+.contact_add {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 60px;
+}
+.contact_add h4 {
+  color: #123c69;
+  font-size: 30px;
+  padding: 10px;
+}
+.contact_add h4 span {
+  color: #720322;
+}
+.info_con .form  input
+{
+  margin-top: 10px;
+  margin-bottom:10px;
+  width: 300px;
+  border-radius: 3px;
+  padding: 12px;
+  color: white;
   
+background-color:var(--btn-color);
+}
+.info_con .form textarea{
+    padding:12px;width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: left;
+    
+
+    
+}.info_con a{
+    text-decoration: none;
+  color: white;
+  background-color: #07706e;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+ 
+
+}
+footer p{
+    background-color: var(--primary-color);
+    padding: 2px;
+    text-align: center;
+}footer span{
+    color:  #56051c;
 }
