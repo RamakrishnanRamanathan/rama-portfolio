@@ -210,7 +210,7 @@ header .top-button:hover {
   margin: 50px;
   padding: 50px;
   width: 350px;
-  height: 250px;
+ 
   border-radius: 10px;
   background-color: var(--secondary-color);
 }
@@ -286,5 +286,5 @@ footer p{
     padding: 2px;
     text-align: center;
 }footer span{
-    color:  #56051c;
+    color:  #400012c1;
 }
