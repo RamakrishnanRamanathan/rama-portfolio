@@ -159,6 +159,7 @@ header .top-button:hover {
 .middle_section .mid_right .mid_sec_rightcont ul {
   list-style-type: none;
   padding: 5px;
+  margin-right:5px;
 }
 .middle_section .mid_right .mid_sec_rightcont ul li {
   color: #302b27;
@@ -289,6 +290,10 @@ footer p{
     color:  #400012c1;
 }
 @media only screen and  (max-width:600px){
+  
+  html{
+    margin-left:10px
+  }
   header{
     flex-direction: column;
     padding: 10px;
@@ -300,12 +305,15 @@ footer p{
   }
   .hero_section .hero_img{
        margin-top: 10px;
-      margin-right: 25px;
+      margin-right: 15px;
   } 
   .middle_section{
     flex-direction: column;
     padding: 30px 130px 30px 150px;
+  }.middle_section .mid_sec_rightcont ul li{
+    margin-right: 10px;
   }
+
  .lower_section .lower_box_division{
   flex-direction: column;
  }
