@@ -262,8 +262,8 @@ header .top-button:hover {
 background-color:var(--btn-color);
 }
 .info_con .form textarea{
-    padding:12px;width: 400px;
-    height: 200px;
+    padding:12px;/*width: 400px;*/
+    /*height: 200px;*/
     border-radius: 5px;
     margin-top:20px;
     margin-bottom:20px;
@@ -287,4 +287,30 @@ footer p{
     text-align: center;
 }footer span{
     color:  #400012c1;
+}
+@media only screen and  (max-width:600px){
+  header{
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .hero_section{
+    flex-direction:column;
+    padding: 30px 120px 30px 120px;
+  }
+  .hero_section .hero_img{
+       margin-top: 10px;
+      margin-right: 25px;
+  } 
+  .middle_section{
+    flex-direction: column;
+    padding: 30px 130px 30px 150px;
+  }
+ .lower_section .lower_box_division{
+  flex-direction: column;
+ }
+ 
+ .contact_add .info_con .form textarea{
+  width: 300px;
+ }
 }
